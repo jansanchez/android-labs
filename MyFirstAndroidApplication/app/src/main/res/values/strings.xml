@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">MyFirstAndroidApplication</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+
+    <string name="taltura">Su Altura:</string>
+    <string name="tpeso">Su Peso:</string>
+    <string name="calcular">Calcular el IMC</string>
+    <string name="resultado">Se Muestra el valor del IMC</string>
+
+
+</resources>
