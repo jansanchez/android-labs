@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">SimpleTodoList</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="addItemHint">Nuevo Item</string>
+
+    <string name="addItem">Agregar Nuevo Item</string>
+
+</resources>
