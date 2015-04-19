@@ -36,7 +36,7 @@
         android:layout_height="wrap_content"
         android:inputType="phone"
         android:ems="10"
-        android:id="@+id/contactPhoneNumber"
+        android:id="@+id/contactPhone"
         android:hint="@string/txtPhoneHint" />
 
     <TextView

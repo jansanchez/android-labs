@@ -19,6 +19,8 @@ public class ContactObject implements Serializable{
         this.website = website;
     }
 
+
+
     public String getName() {
         return name;
     }
@@ -44,5 +46,6 @@ public class ContactObject implements Serializable{
     }
 
 
-
+    public ContactObject() {
+    }
 }
