@@ -1,8 +1,8 @@
 <resources>
     <string name="app_name">Custom View in Drawer</string>
 
-    <string name="title_section1">Section 1</string>
-    <string name="title_section2">Section 2</string>
+    <string name="title_section1">Vista principal</string>
+    <string name="title_section2">Control personalizado</string>
     <string name="title_section3">Section 3</string>
 
     <string name="navigation_drawer_open">Open navigation drawer</string>
@@ -11,6 +11,12 @@
     <string name="action_example">Example action</string>
 
     <string name="action_settings">Settings</string>
+
+    <string name="main_fragment_text">Usar el menu Navigation Drawer</string>
+    <string name="main_fragment_text_first">Vista principal - Usar el Drawer Menu</string>
+    <string name="more_views_fragment_text">Un lugar para mas vistas</string>
+
+
 
 <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>

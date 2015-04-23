@@ -1,6 +1,7 @@
 package io.frontendlabs.customviewindrawer;
 
 import android.app.Activity;
+import android.net.Uri;
 import android.support.v7.app.ActionBarActivity;
 import android.support.v7.app.ActionBar;
 import android.support.v4.app.Fragment;
@@ -19,8 +20,11 @@ import android.widget.ArrayAdapter;
 import android.widget.TextView;
 
 
-public class MainActivity extends ActionBarActivity
-        implements NavigationDrawerFragment.NavigationDrawerCallbacks {
+public class MainActivity extends ActionBarActivity implements NavigationDrawerFragment.NavigationDrawerCallbacks,
+        CustomViewFragment.OnFragmentInteractionListener,
+        MoreViewsFragment.OnFragmentInteractionListener,
+        MainViewFragment.OnFragmentInteractionListener{
+
 
     /**
      * Fragment managing the behaviors, interactions and presentation of the navigation drawer.
@@ -147,4 +151,11 @@ public class MainActivity extends ActionBarActivity
         }
     }
 
+
+    @Override
+    public void onFragmentInteraction(Uri uri) {
+
+
+
+    }
 }

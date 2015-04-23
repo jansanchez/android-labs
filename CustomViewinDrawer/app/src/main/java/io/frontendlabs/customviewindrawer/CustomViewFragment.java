@@ -1,6 +1,7 @@
 package io.frontendlabs.customviewindrawer;
 
 import android.app.Activity;
+import android.graphics.Color;
 import android.net.Uri;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
@@ -28,6 +29,8 @@ public class CustomViewFragment extends Fragment {
     private String mParam2;
 
     private OnFragmentInteractionListener mListener;
+
+    private AndroidATCView myView;
 
     /**
      * Use this factory method to create a new instance of
@@ -63,8 +66,31 @@ public class CustomViewFragment extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
-        // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_custom_view, container, false);
+
+        View rootView = inflater.inflate(R.layout.fragment_custom_view, container, false);
+
+
+            myView = (AndroidATCView) rootView.findViewById(R.id.androidATCView1);
+
+            myView.setSquareColor(Color.BLUE);
+            myView.setLabelColor(Color.YELLOW);
+            myView.setSquareText("Has click en este control");
+
+            myView.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+
+                    myView.setSquareColor(Color.RED);
+                    myView.setLabelColor(Color.BLACK);
+                    myView.setSquareText("Has usado este control");
+
+                }
+            });
+
+
+        return rootView;
+
+
     }
 
     // TODO: Rename method, update argument and hook method into UI event

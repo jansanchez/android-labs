@@ -4,7 +4,12 @@
     tools:context="io.frontendlabs.customviewindrawer.MoreViewsFragment">
 
     <!-- TODO: Update blank fragment layout -->
-    <TextView android:layout_width="match_parent" android:layout_height="match_parent"
-        android:text="@string/hello_blank_fragment" />
+
+    <TextView android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:textAppearanceLarge"
+        android:id="@+id/textView"
+        android:layout_gravity="center"
+        android:text="@string/more_views_fragment_text" />
 
 </FrameLayout>
