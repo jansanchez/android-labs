@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">ProyectoBanner</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="claveBanner">ca-app-pub-2776981988971724/7758809493</string>
+    <string name="claveInterticial">ca-app-pub-2776981988971724/9235542693</string>
+</resources>
